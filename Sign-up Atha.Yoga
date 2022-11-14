@@ -1,0 +1,6 @@
+describe('Atha Yoga', () => {
+  it('passes', () => {
+    cy.visit('https://atha.yoga/')
+    cy.get('[href="/sign-up/"]').click()
+  })
+})
